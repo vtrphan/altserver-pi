@@ -137,8 +137,8 @@
         This will mount the libplist libraries from the host system into the container, making them accessible to the application inside the container.
       - After updating the `docker-compose.yml`, you need to Rebuild and Restart the Container:
         ```bash
-        docker-compose down
-        docker-compose up --build
+        docker compose down
+        docker compose up --build
         ```
       - Verify Libraries Inside the Container:
         ```bash
